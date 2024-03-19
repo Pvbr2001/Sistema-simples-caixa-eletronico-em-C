@@ -262,7 +262,7 @@ void user_padrao(){
         if(senha_admin == 3){
             return;
         }
-        
+        //senha e usuário admin
         if(endereco_admin == 14 && senha_admin == 555){
             int op_admin, recarga, cedula_1 = 1, cedula_2 = 1, cedula_3 = 1, cedula_4 = 1;
             system("clear");//Obs: se for rodar no windows, troca o "clear" por "cls".
